@@ -1,0 +1,47 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    background-color: #202124;
+    font-family: Arial, sans-serif
+}
+
+html {
+    font-size: 62.5% ;
+}
+
+.header {
+    width: auto;
+    height: 5%;
+    border: 2px red dotted;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.header__nav {
+    display: flex;
+    flex-basis: 100%;
+    justify-content: flex-end;
+    align-items: center;
+    margin: 10px auto;
+}
+
+.header__enlace {
+    text-decoration: none;
+    font-size: 1.3rem;
+    color: white;
+    margin: auto 10px;
+    display: flex;
+}
+
+.header__profile {
+    display: inline-flex;
+}
+
+.header__profile-one {
+    
+}
+
+.header__profile-img {
+    position: relative;
+}
