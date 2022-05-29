@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Google</title>
+    <script src="https://kit.fontawesome.com/c9d02780b0.js" crossorigin="anonymous"></script>
     <link rel="icon"href="https://img.icons8.com/color/48/000000/google-logo.png"/>
     <link rel="stylesheet" href="./css/style.css" />
   </head>
@@ -45,37 +46,28 @@
         </a>
       </nav>
     </header>
-    <!-- <main class="main">
+    <main class="main">
       <section class="main__contenido">
         <figure class="main__logo">
-          <picture class="main__picture">
-            <source
-              media="(min-width: 800px)"
-              srcset="./img/google-logo-big.png"
-            />
-            <source
-              media="(min-width: 600px)"
-              srcset="./img/google-logo-medium.png"
-            />
-            <img
-              src="./img/google-logo-small.png"
-              alt="Logo Google"
-              class="main__logo-img"
-            />
-          </picture>
+            <img src="./img/google-logo-small.png" alt="Logo Google" class="main__logo-img"/>
         </figure>
-        <form action="buscar">
-          <input id="buscar" type="text" />
+        <form class="main__search" action="buscar">
+          <span class="main__search">
+            <i class="fa-solid fa-magnifying-glass fa-lg main__input-icon"></i>
+          </span>
+          <input id="buscar" type="search" class="main__input-field"/>
         </form>
-        <button class="button">
-          <span class="button__text">Buscar con Google</span>
-        </button>
-        <button class="button">
-          <span class="button__text">Buscar con Google</span>
-        </button>
+        <div class="botones">
+          <button class="button">
+            <span class="button__text">Buscar con Google</span>
+          </button>
+          <button class="button">
+            <span class="button__text">Me siento con suerte</span>
+          </button>
+        </div>
       </section>
     </main>
-    <footer class="footer">
+    <!-- <footer class="footer">
         <div class="menu">
             <a href="https://about.google" class="footer__link">Sobre Google</a>
             <a href="https://about.google" class="footer__link">Publicidad</a>
