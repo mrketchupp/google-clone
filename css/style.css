@@ -75,7 +75,7 @@ html {
 
 .main__input-icon {
     color: #b3bcc7;
-    position:fixed;
+    position:absolute;
     margin: 15px 10px;
 }
 
