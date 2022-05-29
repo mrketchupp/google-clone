@@ -98,9 +98,9 @@ html {
     border: 2px #b3bcc7 solid;
 }
 
-.botones {
-    /* border: 2px red dotted; */
-}
+/* .botones {
+    border: 2px red dotted;
+} */
 
 .button {
     width: 150px;
@@ -113,4 +113,30 @@ html {
 .button__text {
     color: white;
     background:#303134;
+}
+
+/* conmienzan los estilos de footer */
+.footer {
+    /* border: 2px coral dotted; */
+    width: auto;
+    height: 10vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.footer__menu {
+    flex-basis: 100%;
+    display: flex;
+    align-items:flex-end;
+    /* border: 2px cornflowerblue dotted; */
+    background: #171717;
+}
+
+.footer__link {
+    background: fixed;
+    font-size: 1.4rem;
+    color: #999da2;
+    padding: 15px;
+    cursor: pointer;
+    text-decoration: none;
 }
