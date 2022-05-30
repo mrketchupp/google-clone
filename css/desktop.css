@@ -1,0 +1,24 @@
+.main__logo {
+    width: 35%;
+ }
+
+ .main__search {
+    width: 50%;
+    height: 40px;
+}
+
+.main__input-icon {
+   margin: 20px 15px;
+}
+
+.footer {
+    flex-direction:row;
+}
+
+.footer__menu {
+    flex-basis: 100%;
+    display: flex;
+    align-items:flex-end;
+    /* border: 2px cornflowerblue dotted; */
+    background: #171717;
+}
